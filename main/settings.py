@@ -98,6 +98,9 @@ DATABASES = {
     )
 }
 
+DATE_INPUT_FORMATS = (
+    '%d/%m/%Y',  # '21/03/2014'
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
